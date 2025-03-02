@@ -1,5 +1,6 @@
 <?php
-function urutanAngka($angka) {
+function urutanAngka($angka)
+{
     $num = 1;
     for ($i = 1; $i <= $angka; $i++) {
         for ($j = 1; $j <= $i; $j++) {
@@ -12,4 +13,3 @@ function urutanAngka($angka) {
 
 // Contoh pemanggilan fungsi
 urutanAngka(5);
-?>
